@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <link href="https://developers.google.com/maps/documentation/javascript/examples/default.css"
+        rel="stylesheet" />
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=zh-TW"></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $("#div_24229618").hide();
+            $("#div_24229617").hide();
+        });
+
+        function Distance99() {
+            var start = $('input[id="mm"]').val();
+            var end = $('select[id="nn"]').val();
+            var company_id = "";
+            for(x=0;x<1;x++){
+                company_id = "24229618";
+                Distance88(start, end, company_id);
+            }
+        }
+
+        function tet(){
+            return true;
+        }
+
+        function Distance88(start, end, company_id) {
+            var request = { 
+                origin: start,
+                destination: end,
+                travelMode: google.maps.DirectionsTravelMode.DRIVING
+            };
+            //宣告
+            var directionsService = new google.maps.DirectionsService();
+            directionsService.route(request, function (response, status) {
+                var strTmp = "";
+                alert(status);
+                if (status == google.maps.DirectionsStatus.OK) {
+                    var route = response.routes[0];
+                    for (var i = 0; i < route.legs.length; i++) {
+                        var routeSegment = i + 1;
+                        strTmp += route.legs[i].distance.text;
+                    }
+                    //取得距離(正整數，公尺)
+                    var dist = parseInt(parseFloat(strTmp) * 1000).toString();
+                    document.getElementById("test").innerHTML=dist;
+
+                    if(parseInt(dist) > 10000){
+                        $("#div_"+company_id).hide();
+                        $("#div_"+(company_id-1)).show();
+                    }else{
+                        $("#div_"+company_id).show();
+                        $("#div_"+(company_id-1)).hide();
+                    }
+                    
+                }else{
+                    $("#div_"+company_id).hide();
+                    $("#div_"+(company_id-1)).hide();
+                }
+            });
+        }
+
+        key=new Array(3);
+        key[0]=new Array("");
+        key[1]=new Array(3);
+        key[2]=new Array(2);
+        key[3]=new Array(3);
+
+        key[1][0]="南港捷運站";
+        key[1][1]="南港軟體園區站";
+        key[1] [2]="東湖站";
+
+        key[2][0]="新北市新莊區新泰路199巷";
+        key[2][1]="新北投站";
+
+        key[3][0]="中正紀念堂站";
+        key[3][1]="東門站";
+        key[3][2]="大安公園站";
+
+        function Buildkey(num)
+        {
+          document.myForm.station.selectedIndex=0;
+          for(ctr=0;ctr < key[num].length;ctr++){
+            document.myForm.station.options[ctr]=new Option(key[num][ctr],key[num][ctr]);
+            
+          }
+         
+        }
+        function hello(){
+            alert(nn.value);
+        }
+    </script>
+    
+  </head>
+    
+  
+  <body>
+        <div id="div_24229618">
+            <font color="blue">我在附近</font>
+        </div>
+        <div id="div_24229617">
+            <font color="blue">我離很遠</font>
+        </div>
+    <div id="test1">兩地的距離:<font color="blue" id="test" ></font></div>
+    <form name="myForm">
+
+    捷運線
+    :
+
+    <select name="color" onchange ="Buildkey(this.selectedIndex)" id="color">
+    <option value=""></option>
+    <option value="紅色">文湖線</option>
+    <option value="黃色">新北投線</option>
+    <option value="綠色">信義線</option>
+    </select>
+
+    捷運站
+    :
+
+    <select id="nn" name="station" >
+    </select>
+
+    <input type="button"  value="確認" onclick="hello()">
+    <input type="text" name="str_address" id="mm" value="士林捷運站"/>起始地點
+
+    <input type="button" value="計算距離" onclick="Distance99()" >
+    </form>
+    
+
+  </body>
+</html>
