@@ -1,0 +1,1069 @@
+﻿
+
+
+.title_block{
+	background-color:#f3ffc1;
+	border-top:1px solid #d1d1d1;
+	border-bottom:1px solid #8fbf20;
+}
+.title_present{
+	width:990px;
+	margin:0 auto;
+	position: relative;
+	height:77px;
+}
+.title_present .iconpic{
+	width:122px;
+	height:68px;
+	background: url("../images/icon_school.png") top left no-repeat;
+	position: absolute;
+	top:9px;
+	left:0;
+}
+.title_present .search{
+	width:153px;
+	height:56px;
+	background: url("../images/icon_search_green.png") top left no-repeat;
+	position: absolute;
+	top:22px;
+	right:32px;
+}
+.title{
+	font-size:3em;
+	color:#434343;
+	margin-left:138px;
+	margin-top:30px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.present_searchbar{
+	background-color:#c3e33a;
+	height:44px;
+	border-bottom:1px solid #8fbf20;
+	font-size:1.4em;
+}
+.present_searchbar_fixwidth{
+	width:990px;
+	margin:0 auto;
+	position: relative;
+	padding: 10px 0;
+}
+.unit{
+	background: #f4f4f4;
+	text-align:center;
+	border-bottom:1px solid #d9d9d9;
+	padding:25px 0 17px;
+	margin-bottom:22px;
+}
+.unitName{
+	font-size:3em;
+	color:#179302;
+	margin-bottom:4px;
+}
+.subitem{
+	display:inline-block;
+	width:142px;
+	vertical-align: middle;
+	font-size:1.4em;
+	padding-top:10px;
+	border-radius:5px;
+}
+.subitem:hover{
+	display:inline-block;
+	width:142px;
+	vertical-align: middle;
+	font-size:1.4em;
+	background: #c3e33a;
+	cursor:pointer;
+	color:#179302;
+}
+.listicon{
+	display:inline-block;
+	vertical-align: top;
+	margin-right:6px;
+}
+.tabview{
+	width:1059px;
+	margin:0 auto;
+}
+.tab_on,.tab{
+	display:inline-block;
+	width:200px;
+	height:66px;
+	line-height:66px;
+	text-align:center;
+	border-radius:5px 5px 0 0 ;
+}
+
+
+
+.tab_on{
+
+	background: #0a9e4b;
+	color:#fff;
+}
+.tab{
+
+	background: #ddd;
+	color:#0a9e4b;
+}
+.tab:hover{
+
+	background: #0a9e4b;
+	color:#fff;
+}
+.detail{
+	width:1059px;
+	margin:0 auto;
+	box-sizing: border-box;
+	border:1px solid #92ca12;
+	margin-bottom:60px;
+}
+.detail_title{
+	background: #f3ffc1;
+	border-bottom:1px solid #92ca12;
+	font-size:2.1em;
+	vertical-align: middle;
+	padding:10px 0 0;
+}
+
+.detail0{
+	padding:12px 30px;
+	border-bottom:1px solid #92ca12;
+}
+.detail0 .subitem{
+	text-align:center;
+}
+.detail1,.detail2,.detail3,.detail4,.detail5{
+	border-bottom:1px solid #92ca12;
+	font-size:14px;
+}
+.detail1:after,.detail2:after,.detail3:after,.detail4:after,.detail5:after{
+		content:'';
+	display:block;
+	clear:both;
+}
+.detail1{
+	padding:30px 0;
+}
+.detail5{
+	padding:30px 0;
+}
+.leftCol{
+	width:40%;
+	float:left;
+	
+	text-align:center;
+}
+.rightCol{
+	width:55%;
+	float:left;
+	
+}
+.detail2{
+	width:100%;
+	background: url("../images/img_meal_bg2.jpg") top left repeat-y;
+	min-height:281px;
+	font-size:13px;
+}
+.mask{
+	width:110px;
+	height:110px;
+	border-radius:100%;
+	border:15px solid #fff;
+	overflow: hidden;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+	margin-bottom:14px;
+	font-size:13px;
+
+}
+.mask:hover{
+	cursor: pointer;
+}
+.mask img{
+	width:auto;
+	height:110px;
+}
+.dateChoose{
+	font-size:24px;
+	position:relative;
+	text-align:center;
+	padding:20px 0 0;
+}
+.dateChoose .next,.dateChoose .pre{
+	position: absolute;
+	width:128px;
+	height:40px;
+	border:1px solid #bdad00;	
+	line-height:40px;
+	background: #ffea00;
+	font-size:18px;
+	color:#343434;
+}
+.dateChoose .next{
+
+	top:10px;
+	right:10px;
+
+}
+
+.dateChoose .pre{
+
+	top:10px;
+	left:10px;
+
+}
+.mealsPic{
+	display:inline-block;
+	margin-left:20px;
+}
+.mealsPic li{
+	display:inline-block;
+	font-size:14px;
+	background: #6e6e6e;
+	border-radius:5px;
+	padding:2px 5px;
+	color:#fff;
+}
+.mealsPic li.choose{
+	display:inline-block;
+	font-size:14px;
+	background: #df0101;
+	border-radius:5px;
+	padding:2px 5px;
+	color:#fff;
+}
+
+.btn_more{
+	width:260px;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #1AAA01 0%, #179302 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #1AAA01 0%, #179302 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #1AAA01 0%, #179302 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1AAA01), color-stop(1, #179302));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #1AAA01 0%, #179302 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #1AAA01 0%, #179302 100%);
+	border:1px solid #0e6300;
+	border-radius:5px;
+	text-align: center;
+	line-height:54px;
+	font-size:2.4em;
+	margin:30px auto 50px;
+	color:#fff;
+}
+
+
+.select1{
+	width:150px;
+	height:24px;
+	border:1px solid #ffc600;
+	border-radius:none;
+	line-height:24px;
+}
+.input2{
+	width:150px;
+	height:24px;
+	border:1px solid #179302;
+	line-height:24px;
+}
+
+.purple_arr{
+	display:inline-block;
+	padding-left: 15px;
+}
+.purpleBtn{
+	width:133px;
+	height: 30px;
+    border: 1px solid #7aad03;
+    background-color: #8fbf20;
+    color:#fff;
+    margin-left:30px;
+}
+.greenBtn{
+	width:133px;
+	height: 30px;
+    border: 1px solid #127d00;
+    background-color: #179302;
+    color:#fff;
+    margin-left:30px;
+}
+.intro_title{
+	font-size:24px;
+	font-weight:bold;
+	margin:10px 0;
+}
+.purple{
+
+	color:#bc3dd9;
+}
+.coffee{
+	color:#674229;
+}
+
+.table1{
+	font-size:inherit;
+	width:100%;
+}
+.table1 th,.table1 td{
+	padding:9px 0;
+	border-bottom:1px solid #e7e7e7;
+	text-align:left;
+}
+.table1 th{
+	width:100px;
+}
+.table1 td{
+	padding: 4px;
+}
+.table2{
+	font-size:inherit;
+	width:94%;
+	border:1px solid #c3e33a;
+	margin:26px auto;
+}
+.table2 th,.table2 td{
+	padding:0 9px;
+	border-top:1px solid #fff;
+	text-align:left;
+	line-height:28px;
+}
+.table2 th{
+	background:  #f4ffc6;
+	width:20%;
+	border-bottom:1px solid #c3e33a;
+}
+
+.table2 td{
+	
+	box-sizing: border-box;
+}
+.table2 tr:nth-child(odd){
+	background: #f1f1f1;
+	box-sizing: border-box;
+}
+.big{
+	font-size:24px;
+	text-align: center;
+	background: #c3e33a;
+
+}
+.tableTitle{
+	background: #8a3917;
+	width:100px;
+	text-align: center;
+	padding:8px ;
+	border-radius: 5px 5px 0 0;
+	color:#fff;
+}
+
+.table3{
+	width:100%;
+	font-size:inherit;
+	border-bottom:5px solid #b8b8b8;
+}
+.table3 th,.table3 td{
+	padding:9px 0;
+	border-bottom:1px solid #e2e2e2;
+	border-top:1px solid #fff;
+	text-align:left;
+}
+.table3 th{
+	background: #c3e33a;
+	padding:10px;
+}
+.table3 td{
+	padding:10px;
+	box-sizing: border-box;
+}
+.table3 tr:nth-child(even){
+	background:  #f5f5f5;
+
+}
+.table3 th:nth-child(4),.table3 td:nth-child(4){
+	border-right:1px solid #b8b8b8;
+}
+.table4{
+	font-size:inherit;
+	width:100%;
+}
+.table4 th,.table4 td{
+	padding:9px 0;
+	border-bottom:1px solid #e7e7e7;
+	text-align:left;
+}
+.table4 th{
+	width:160px;
+}
+.table4 td{
+	padding: 4px;
+}
+.pic1{
+	width:100%;
+	max-width:300px;
+}
+
+		.stepcarousel{
+		position: relative; /*leave this value alone*/
+		overflow: scroll; /*leave this value alone*/
+		width: 90%; /*Width of Carousel Viewer itself*/
+		height: 170px; /*Height should enough to fit largest content's height*/
+		-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin:13px auto;
+
+		}
+		.stepcarousel .panel {
+		    float: left;
+		    overflow: hidden;
+		    width: 160px;
+		    text-align: center;
+		    padding:0 10px;
+		    box-sizing: border-box;
+		    border:none;
+		    position: relative;
+		}
+		.stepcarousel .panel .label{
+		    position: absolute;
+		    width:46px;
+		    height:46px;
+		    border-radius:100%;
+		    background:#179302;
+		    color:#fff;
+		    top:0;
+		    left:0;
+		    line-height:46px;
+		}
+		.stepcarousel .belt {
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    font-size: 13px;
+		    color:#179302;
+		}
+		.stepcarousel .panel:first-child {
+		    border-left: none;
+		}
+
+
+		.stepcarousel2{
+		position: relative; /*leave this value alone*/
+		overflow: scroll; /*leave this value alone*/
+		width: 90%; /*Width of Carousel Viewer itself*/
+		height: 170px; /*Height should enough to fit largest content's height*/
+		-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin:13px auto;
+
+		}
+		.stepcarousel2 .panel {
+		    float: left;
+		    overflow: hidden;
+		    width: 160px;
+		    text-align: center;
+		    padding:0 10px;
+		    box-sizing: border-box;
+		    border:none;
+		    position: relative;
+		}
+		.stepcarousel2 .panel .label{
+		    position: absolute;
+		    width:46px;
+		    height:46px;
+		    border-radius:100%;
+		    background:#179302;
+		    color:#fff;
+		    top:0;
+		    left:0;
+		    line-height:46px;
+		}
+		.stepcarousel2 .belt {
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    font-size: 13px;
+		    color:#179302;
+		}
+		.stepcarousel2 .panel:first-child {
+		    border-left: none;
+		}
+		span.paginatecircle {
+		    background: #919191;
+		    border-radius: 10px;
+		    width: 10px;
+		    height: 10px;
+		    cursor: pointer;
+		    display: inline-block;
+		    margin-right: 10px;
+		}
+		span.paginatecircle.selected {
+    background: #c3e33a;
+}
+
+
+
+.martop1{
+	margin-top:20px;
+}
+.marbottom1{
+	margin-bottom:40px;
+}
+
+
+.areatitle{
+	text-align: center;
+	margin-top:20px;
+}
+.areatitle h2{
+	display:inline-block;
+	border-bottom:4px solid #644028;
+}
+.coffeeline{
+	border:1px solid #7d2f22;
+}
+
+		.search1{
+
+			display:inline-block;
+		}
+			.table3 td.alignCenter{
+		text-align:center;
+	}
+.ps{
+	padding:5px 0 0 18px;
+}
+
+.store{
+	width:1058px;
+	margin:0 auto;
+
+}
+
+.store_top{
+	padding:50px 0 14px 75px;
+	background: url("../images/img_schoolstore_bg1.jpg") top left no-repeat;
+	
+}
+.store_top2{
+	padding:50px 0 14px 75px;
+	background: url("../images/img_schoolstore_bg2.jpg") top left no-repeat;
+	position: relative;
+}
+.store_top2 .back{
+	position: absolute;
+	width:146px;
+	height:99px;
+	background: url("../images/btn_backtolist2.png") top left no-repeat;
+	top:10px;
+	right:20px;
+	cursor: pointer;
+}
+.product{
+	padding:24px 0 0;
+	font-size:14px;
+}
+.product_list{
+
+}
+.product_list li{
+	
+	width:150px;
+	box-sizing: border-box;
+	margin-left:30px;
+	margin-bottom:30px;
+	text-align:center;
+	text-decoration: underline;
+	display:inline-block;
+	vertical-align: top
+
+}
+.product_list li:hover{
+	
+	width:150px;
+	box-sizing: border-box;
+	margin-left:30px;
+	text-align:center;
+	text-decoration: underline;
+	color:#15a810;
+	cursor: pointer;
+	display:inline-block;
+}
+.product_list li:nth-child(6n+1){
+	margin-left:0;
+}
+.product_list li img{
+	width:150px;
+	border:1px solid #c3e33a;
+}
+.product_list li:hover img{
+	width:150px;
+	border:1px solid #15a810;
+}
+.company,.factory{
+	width:45%;
+	float:left;
+	border-top:14px solid #92ca12;
+	margin:2.5%;
+}
+.company_t,.factory_t{
+	border-top:1px solid #4bb845;
+	text-align:center;
+	padding:6px 0;
+	border-bottom:1px solid #d1d1d1;
+	font-weight: bold;
+}
+.company{
+
+}
+.factory{}
+.otherProduct{
+	border-bottom: 1px solid #92ca12;
+}
+.otherProduct_t{
+	width:225px;
+	height:49px;
+	background:#15a610;
+	color:#fff; 
+	line-height:49px;
+	border-radius:15px 15px 0 0 ;
+}
+/* ########## Media Query Breakpoints ########## */
+@media (max-width: 1020px) {
+
+    .stepcarousel2{
+		position: relative; /*leave this value alone*/
+		overflow: scroll; /*leave this value alone*/
+		width: 100%; /*Width of Carousel Viewer itself*/
+		max-width:760px;
+		height: 170px; /*Height should enough to fit largest content's height*/
+		-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin:0 auto;
+
+	}
+
+}
+
+@media (max-width: 768px) {
+		.detail{
+			width:100%;
+		}
+		.pic1{
+			margin:0;
+		}
+		.subitem {
+	    display: inline-block;
+	    width: 45%;
+	    vertical-align: middle;
+	    font-size: 1.4em;
+	    padding-top: 10px;
+	    border-radius: 5px;
+	}
+
+		.detail1,.detail2,.detail3,.detail4,.detail5{
+			width:100%;
+			border-bottom:1px solid #92ca12;
+		}
+		.leftCol{
+			float:none;
+			width:100%;
+			display:block;
+		}
+		.leftCol img{
+			width:80%;
+		}
+		.rightCol{
+			float:none;
+			width:100%;
+			display:block;
+			
+		}
+
+
+		.stepcarousel{
+		position: relative; /*leave this value alone*/
+		overflow: scroll; /*leave this value alone*/
+		width:90%;
+		max-width: 300px;
+		height: 170px; /*Height should enough to fit largest content's height*/
+		-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin:13px auto;
+
+		}
+		.stepcarousel .panel {
+		    float: left;
+		    overflow: hidden;
+		    width: 160px;
+		    text-align: center;
+		    padding:0 10px;
+		    box-sizing: border-box;
+		    border:none;
+		}
+		.stepcarousel .belt {
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    font-size: 13px;
+		    width:100%;
+		}
+		.stepcarousel .panel img {
+			width:100%;
+		    max-width: 150px;
+		}
+		.stepcarousel2{
+		position: relative; /*leave this value alone*/
+		overflow: scroll; /*leave this value alone*/
+		width:90%;
+		max-width: 300px;
+		height: 170px; /*Height should enough to fit largest content's height*/
+		-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin:13px auto;
+
+		}
+		.stepcarousel2 .panel {
+		    float: left;
+		    overflow: hidden;
+		    width: 160px;
+		    text-align: center;
+		    padding:0 10px;
+		    box-sizing: border-box;
+		    border:none;
+		}
+		.stepcarousel2 .belt {
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    font-size: 13px;
+		    width:100%;
+		}
+		.stepcarousel2 .panel img {
+			width:100%;
+		    max-width: 150px;
+		}
+		.dateChoose{
+			font-size:18px;
+			position:relative;
+			text-align:center;
+			padding:15px 0 0;
+			width:100%;
+			height:70px;
+		}
+		.dateChoose .next,.dateChoose .pre{
+			position: absolute;
+			width:70px;
+			height:26px;
+			border:1px solid #ffc600;	
+			line-height:30px;
+			background: #ffe262;
+			font-size:16px;
+		}
+		.dateChoose .next{
+
+			top:10px;
+			right:10px;
+
+		}
+
+		.dateChoose .pre{
+
+			top:10px;
+			left:10px;
+
+		}
+		.mealsPic{
+		display:block;
+		margin-top:10px;
+	}
+	.title_present{
+		width:100%;
+		position: relative;
+		height:53px;
+		text-align: center;
+		position: relative;
+	}
+	.title_present .iconpic{
+		width:90px;
+		height:49px;
+		background: url("../images/icon_school.png") top left no-repeat;
+		background-size: cover;
+		display:inline-block;
+		position: relative; 
+		top:4px;   left:-2px;
+		vertical-align:middle;
+		z-index:90;
+	}
+	.title_present .search{
+		width:35px;
+		height:28px;
+		background: url("../images/icon_search_s_green.png") top left no-repeat;
+		background-size: cover;
+		position: absolute;
+		top:26px;
+		right:12px;
+	}
+	.title{
+		font-size:1.8em;
+		color:#434343;
+		vertical-align:middle;
+		display:inline-block;
+		margin: 10px 0 0 0;
+		font-weight:bold;
+	}
+	.present_searchbar {
+		position: absolute;
+		top:55px;
+		left:0;
+		z-index:88;
+		height: auto;
+	}
+	.present_searchbar_fixwidth{
+		width: 92%;
+	    margin: 0 auto;
+	    position: relative;
+	    padding: 10px 0;
+	    text-align: center;
+	}
+	.store{
+		font-size:1.4em;
+		width:100%;
+		margin:0 auto;
+	}
+
+
+	.store_top{
+		padding:50px 0 12px 75px;
+		background: url("../images/img_schoolstore_bg1.jpg") top left no-repeat;
+		
+	}
+
+	.product_list li{
+		
+		width:50%;
+		min-width:150px;
+		box-sizing: border-box;
+
+		text-align:center;
+		text-decoration: underline;
+		display:inline-block;
+		vertical-align: top;
+		margin:0;
+		margin-bottom:20px;
+	}
+	.product_list li:hover{
+		
+		width:50%;
+		box-sizing: border-box;
+		margin:0;
+		text-align:center;
+		text-decoration: underline;
+		color:#15a810;
+		cursor: pointer;
+		display:inline-block;
+	}
+
+	.select1{
+	width:100%;
+	height:24px;
+	border:1px solid #ffc600;
+	border-radius:none;
+	line-height:24px;
+	margin-bottom: 10px;
+	}
+	.input2{
+	width:100%;
+	height:24px;
+	border:1px solid #179302;
+	line-height:24px;
+	margin-bottom: 10px;a
+	}
+	.purpleBtn{
+	width:90%;
+    height: 26px;
+    margin:0 auto;
+	}
+
+
+	table{
+		width:90%;
+		margin:0 auto;
+	}
+	.table1{
+		width:90%;
+		margin:0 auto;
+	}
+
+
+	.table2 th{
+		padding:0 9px;
+		border-top:1px solid #fff;
+		border-bottom:1px solid #c3e33a;
+		text-align:left;
+		line-height:28px;
+	}
+
+	.table2 th.big{
+	font-size:18px;
+	text-align: center;
+	padding:15px 0;
+}
+	.table3{
+		font-size:inherit;
+		width:90%;
+		border:1px solid #92ca12;
+		margin:26px auto;
+	}
+	.table3 th:nth-child(4),.table3 td:nth-child(4){
+		border-right:none;
+	}
+	/*
+	.table3{
+	width:90%;
+	font-size:inherit;
+	border:1px solid #7d2f22;
+	box-shadow: 3px 3px 0 3px #e5e5e5;
+	margin-bottom:30px;
+	}*/
+	.tableTitle {
+   background: #8a3917;
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    margin-left:5%;
+}
+		.stepcarousel2{
+		position: relative; /*leave this value alone*/
+		overflow: scroll; /*leave this value alone*/
+		width:90%;
+		max-width: 250px;
+		height: 150px; /*Height should enough to fit largest content's height*/
+		-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin:13px auto;
+
+		}
+		.stepcarousel2 .panel {
+		    float: left;
+		    overflow: hidden;
+		    width: 125px;
+		    text-align: center;
+		    padding:0 10px;
+		    box-sizing: border-box;
+		    border:none;
+		}
+		.stepcarousel2 .belt {
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    font-size: 13px;
+		    width:100%;
+		}
+		.stepcarousel2 .panel img {
+			width:100%;
+		    max-width: 125px;
+		}
+	.crack .back{
+	position: absolute;
+	top:10px;
+	right:0;
+	background: url("../images/btn_back.png") top left no-repeat;
+	width:80px;
+	height:30px;
+	background-size:cover;
+	}
+
+	.btn_more {
+    width: 90%;
+    margin:0 auto 30px;
+
+	}
+	.branchsearch1{
+			display:block;
+		}
+		.branchsearch2{
+			width:44%;
+			margin:0 3%;
+			display:inline-block;
+			float:left;
+		}
+	.purpleBtn{
+		width:93%;
+		margin:0 auto;
+	}
+
+			.search1{
+			width:70%;
+			display:inline-block;
+		}
+		.purple_arr{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding-left:0;
+	}
+
+	.table3 td.alignCenter{
+		text-align:center;
+	}
+	.ps{
+		padding:5px 0 0 42px;
+	}
+	.tabview{
+		width:100%;
+		text-align:center;
+	}
+	.detail0 .subitem{
+		text-align:left;
+	}
+	.company,.factory{
+	width:90%;
+	float:none;
+	border-top:14px solid #92ca12;
+	margin:5% auto;
+}
+.tab_on,.tab{
+	display:inline-block;
+	width:45%;
+	height:66px;
+	line-height:66px;
+	text-align:center;
+	border-radius:5px 5px 0 0 ;
+}
+.calendar{
+	display:none;
+	}
+.store_top2 .back{
+	position: absolute;
+	width:120px;
+	height:81px;
+	background: url("../images/btn_backtolist2.png") top left no-repeat;
+	top:10px;
+	right:5px;
+	cursor: pointer;
+	background-size: cover;
+}
+	.copyright{
+}
+.mygallery_navbutton {
+width:14px;
+height:auto;
+}
+}
